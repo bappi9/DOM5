@@ -1,4 +1,3 @@
-
 var arr=[]
 export function cr(doc){
  return document.createElement(doc)
