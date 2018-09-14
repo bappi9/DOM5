@@ -1,6 +1,5 @@
   
- import {$, cr, crLi} from './help';
-
+  import {$, cr, crLi} from './help';
   let chk1=document.getElementById('chkBox1')
   let chk2=$('chkBox2')
   let chk3=$('chkBox3')
@@ -9,8 +8,7 @@
   let ul=$('ul1')
  
 console.dir(chk1)
-  //CheckBox Event
- 
+  //CheckBox Event 
 
 chk1.addEventListener('click', function(event){  
   if(chk1.checked){
